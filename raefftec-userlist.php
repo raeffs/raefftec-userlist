@@ -43,11 +43,12 @@ function raefftec_userlist() {
 
 		foreach ($fields as $key => $value) {
 
-			$content = $content . '<td class="' . $key . '">';
+			$content = $content . '<td class="' . $key . '" data-th="' . $value . '">';
 			if ($key == 'avatar') {
-				$content = $content . get_avatar ($user->ID);
+				$content = $content . get_avatar ($user->ID, 48);
 			} else {
-				$content = $content . get_the_author_meta($key, $user->ID);
+				$data = get_the_author_meta($key, $user->ID);
+				$content = $content . (ctype_space($data) || $data == '' ? '&nbsp' : $data);
 			}
 			$content = $content . '</td>';
 
