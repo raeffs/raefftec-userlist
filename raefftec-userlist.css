@@ -1,0 +1,14 @@
+
+#raefftec_userlist td.avatar {
+	width: 58px;
+}
+#raefftec_userlist img.avatar {
+	margin-bottom: -9px;
+}
+
+@media only screen and (max-width: 1200px) {
+	#raefftec_userlist td.avatar,
+	#raefftec_userlist th.avatar { 
+		display: none; 
+	}
+}

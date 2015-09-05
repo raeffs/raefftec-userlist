@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RaeffTec Userlist\n"
+"POT-Creation-Date: 2015-09-05 21:08+0200\n"
+"PO-Revision-Date: 2015-09-05 21:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: Raphael Fleischlin <raphael.fleischlin@gmail.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: raefftec-userlist.php:18
+msgid "Lastname"
+msgstr "Nachname"
+
+#: raefftec-userlist.php:19
+msgid "Firstname"
+msgstr "Vorname"
+
+#: raefftec-userlist.php:20
+msgid "Address"
+msgstr "Adresse"
+
+#: raefftec-userlist.php:21
+msgid "ZIP"
+msgstr "PLZ"
+
+#: raefftec-userlist.php:22
+msgid "City"
+msgstr "Ort"
+
+#: raefftec-userlist.php:23
+msgid "E-Mail"
+msgstr "E-Mail-Adresse"
